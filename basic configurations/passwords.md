@@ -62,3 +62,17 @@
             * **16**: vty 0-15
 * Required if you want remote access with a shared password, and no usernames
     * Without a password, remote access is **denied**
+    ```
+    enable
+    conf t
+    line vty 0 4
+    password *password*
+    login
+    ```
+    * This will set a password on VTY 0-4 and require the password to connect (the login command)
+        * This will allow 5 connections simultaniously
+        * If you set it on only VTY 0
+            * Only 1 connection at a time would be allowed, the rest would be blocked
+    * It is good practice to secure all VTY lines
+        * If they are not secured, unauthorized access may be granted in several ways
+            * If 0-4 require a password, and all 5 lines are being used, the next user to connect may not be prompted for a password
