@@ -33,7 +33,7 @@ Ethernet Standards
 
 * Copper ethernet cable standards
     * Used in **UTP Cables**
-    * ![Table of standards](image.png)
+    * ![Table of standards](./images/image.png)
     * Informal Names
         * Number refers to the speed
             * 10: Ethernet (10Mbps)
@@ -75,7 +75,7 @@ UTP Cable wiring variations
     * **Straight-through cables**
         * Connect pins from one RJ45 connector to the same pins on the other RJ45 connector
             * 1-1, 2-2, 3-3, 6-6
-                * ![Diagram of straight-through cable](image-1.png)
+                * ![Diagram of straight-through cable](./images/image-1.png)
         * **Can** be used to connect
             * PC/Firewall/Router <-> Switch <-> PC/Firewall/Router
         * **Cannot** be used to connect (assuming no **auto mdi-x**)
@@ -84,7 +84,7 @@ UTP Cable wiring variations
     * **Crossover cables**
         * Connect pins from one RJ45 connector to the opposite Tx/Rx pins on the other RJ45 connector
             * 1-3, 2-6, 3-1, 6-2
-                * ![Diagram of crossover cable](image-2.png)
+                * ![Diagram of crossover cable](./images/image-2.png)
                 * These are the pins used, others are still connected, but unused
                     * The others are 4-7, 5-8, 7-4, 8-5
 
@@ -93,7 +93,7 @@ UTP Cable wiring variations
         * Each pair is **bidirectional**
             * Not dedicated to Tx or Rx data like **10BASE-T** & **100BASE-T**
             * Part of the reason they can operate at faster speeds
-        * ![1000BASE-T & 10GBASE-T cables](image-4.png)
+        * ![1000BASE-T & 10GBASE-T cables](./images/image-4.png)
 
 Auto MDI-X
 
@@ -109,8 +109,6 @@ Fiber-Optic Connections
 * **Fiber-optic Cables**
     * Use light over glass fibers to transmit data
         * Contains 2 glass fibers
-        *  ![Fiber-optic cable pair](image-5.png)
-        
+        * ![alt text](./images/image-5.png)
 
-
-
+![](images/img-2025-08-20-23-47-22.png)
