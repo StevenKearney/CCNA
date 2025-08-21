@@ -8,4 +8,4 @@ Centralized location for notable changes to this repo.
 
 * Repo created
 * Day 1 lecture and lab completed
-* Day 2 lecture started
+* Day 2 lecture and lab completed

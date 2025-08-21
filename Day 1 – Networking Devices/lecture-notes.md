@@ -1,7 +1,7 @@
 # Day 1 – Networking Devices
 A **Computer network** is a digital telecommunications network which allows nodes to share resources
 
-Example network devices
+### Example network devices
 
     router
     switch
@@ -11,7 +11,7 @@ Example network devices
 
 2 pc's connected together make a network by definition
 
-Client examples
+### Client examples
 
     laptop
     desktop
