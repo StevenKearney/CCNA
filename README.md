@@ -2,6 +2,7 @@
 * This repo is to assist with my studies for the CCNA exam by documenting various topics and compiling commands into a central location for easy reference
 * This will be following **Jeremy's IT Lab**'s CCNA course on YouTube
 * This is a personal note system for myself and I figured I would make it public in case it halps others too
+* Please do NOT submit a pull request unless you catch something is inaccurate or missing context
 * I will be breaking this up into days following his course, including screenshots if necessary
 
 ```
